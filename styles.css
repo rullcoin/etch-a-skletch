@@ -1,23 +1,35 @@
-.container {
-    display: grid;
+.body {
+    display: flex;
     justify-content: center;
-    text-align: center;
+    align-items: center;
+    flex-direction: column;
     height: 100vh;
+}
+
+.slidecontainer {
+    display: flex;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    box-shadow: 5px 5px lightgray;
 }
 
 .grid-div {
     display: flex;
 }
 
-/* .grids {
-    display: flex;
-    justify-content: center;
-    height: 200px;
-    width: 200px;
-    border: 2px solid black;
-} */
-
 .box {
-    height: 40px;
-    width: 40px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.grid {
+    display: block;
+    width: 100%;
+    font-size: 0;
 }
