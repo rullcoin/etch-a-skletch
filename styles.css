@@ -1,0 +1,23 @@
+.container {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.grid-div {
+    display: flex;
+}
+
+/* .grids {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+} */
+
+.box {
+    height: 40px;
+    width: 40px;
+}
