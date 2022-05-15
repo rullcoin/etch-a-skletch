@@ -1,9 +1,24 @@
+body {
+    background-color: rgb(206, 201, 201);
+    font-size: 25px;
+    height: 100vh;
+}
+
 .body {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     height: 100vh;
+}
+
+h1 {
+    color: rgba(23, 31, 31, 0.575);
+}
+
+.header {
+    display: flex;
+    justify-content: center;
 }
 
 .slidecontainer {
@@ -13,10 +28,10 @@
 .container {
     display: flex;
     justify-content: center;
-    height: 400px;
-    width: 400px;
+    height: 600px;
+    width: 600px;
     border: 1px solid black;
-    box-shadow: 5px 5px lightgray;
+    box-shadow: 5px 5px rgb(173, 165, 165);
 }
 
 .grid-div {
