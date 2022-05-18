@@ -78,6 +78,10 @@ function createGrid(size) {
     }
 }
 
+btn = document.getElementById("clear-button")
+
+btn.addEventListener("click", reloadGrid)
+
 // Sets up main grid value
 window.onload = () => {
     createGrid(defaultSize)
